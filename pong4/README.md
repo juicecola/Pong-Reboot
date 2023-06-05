@@ -1,0 +1,1 @@
+This is a simple game that demonstrates ball movement using the Pygame library. The game features a ball that moves horizontally and vertically within a defined game window. The ball's movement is controlled by random values for its initial horizontal direction (ballDX) and vertical direction and speed (ballDY).
