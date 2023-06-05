@@ -5,8 +5,8 @@ WINDOW_WIDTH = 1280
 WINDOW_HEIGHT = 720
 
 # Define virtual dimensions
-VIRTUAL_WIDTH = 432
-VIRTUAL_HEIGHT = 243
+VIRTUAL_WIDTH = 800
+VIRTUAL_HEIGHT = 450
 
 # Initialize Pygame
 pygame.init()
@@ -31,7 +31,7 @@ while running:
 
     # Render the text
     text = font.render('Table Tennis!', True, (255, 255, 255))
-    text_rect = text.get_rect(center=(VIRTUAL_WIDTH + 200, VIRTUAL_HEIGHT / 2 - 6))
+    text_rect = text.get_rect(center=(VIRTUAL_WIDTH - 150, VIRTUAL_HEIGHT / 2 - 6))
     screen.blit(text, text_rect)
 
     # Update the screen
