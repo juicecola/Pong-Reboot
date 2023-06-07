@@ -15,7 +15,7 @@ WHITE = (255, 255, 255)
 pygame.init()
 clock = pygame.time.Clock()
 screen = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
-pygame.display.set_caption('Pong')
+pygame.display.set_caption('Table Tennis')
 
 font = pygame.font.Font('font.ttf', 32)
 
